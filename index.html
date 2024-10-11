@@ -11,16 +11,24 @@
         <h1>Basic Data Dashboard</h1>
     </header>
     <main>
-        <section id="KeyMetrics" name="Key Metrics"> 
-            <div>
-                <p id="totalUsers">1000</p>
+        <section id="keyMetrics" name="Key Metrics"> 
+            <div class="totUsers">
+                <p>Total Users: </p>
+                <p id="totalUsers"></p>
             </div>
-            <div>
-                <p id="totalSales">500</p>
+            <div class="totSales">
+                <p>Total Sales: </p>
+                <p id="totalSales"></p>
             </div>
         </section>
-        <button id="alertButton">Show Alert</button>
+        <button id="alertButton" onclick="myFunction()">Show Alert</button>
+
+        <script src="script.js"></script>
     </main>
+
+    <footer>
+        <p>Copyright &#169; 2024</p>
+    </footer>
     
 </body>
 </html>
